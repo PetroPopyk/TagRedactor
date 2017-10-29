@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(../img/Donald.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.first {
+    height: 300px;
+    width: 700px;
+    margin: 0 auto;
+    opacity: 0.9;
+    background: cadetblue;
+    border: 5px solid blue;
+    border-radius: 10px;
+    font-size: 25px;
+    text-shadow: 1px 1px 1px black;
+    text-align: center;
+    overflow: scroll;
+}
+.first li{
+	margin-left: 25px;
+}
+.first table{
+	margin: 0 auto;
+}
+
+.second {
+    height: 300px;
+    width: 700px;
+    margin: 0 auto;
+    background: rgba(255,192,203, 0.9);
+    border: 5px solid red;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.second textarea {
+    margin: 0 auto;
+    width: 97%;
+    border-radius: 10px;
+    height: 100%;
+    display: none;
+    margin-top: -73px;
+    text-align: left;
+}
+
+.btns {
+    height: 40px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.btns input, #btn3, #btn4 {
+    margin-left: 40px;
+    margin-top: 5px;
+    height: 30px;
+    width: 45px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 700;
+    box-shadow: 2px 2px 2px black;
+    cursor: pointer;
+    background: white;
+    
+}
+
+#btn3, #btn4 {
+    margin: 3px 3px;
+    float: right;
+    box-shadow: 2px 2px 2px black;
+    display: none;
+    opacity: inherit;
+}
+#f2, #f3, #f4, #f5,#fcol,#bcol,#colors, #ftable, #ltable, #bim{
+    margin-left: 5px;
+    display: none;
+}
+.third{
+    height: 400px;
+    width: 700px;
+    margin: 0 auto;
+    opacity: 0.9;
+    background: lightgreen;
+    border: 5px solid green;
+    border-radius: 10px;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px black;
+    text-align: left;
+    display: none;
+}
+#colors{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 150px;
+    bottom: 65px;
+    border: 2px solid black;
+    background: black;
+}
+.red, .blue, .green, .yellow, .brown, .grey, .coral, .violet, .wheat{
+    box-sizing: border-box;
+    height: 30%;
+    width: 30%;
+    display: inline-block;
+    border: 1px solid white;
+}
+.red{
+    background: red;
+}
+.green{
+    background: green;
+}
+.blue{
+    background: blue;
+}
+.yellow{
+    background: yellow;
+}
+.coral{
+    background: coral;
+}
+.violet{
+    background: darkviolet;
+}
+.brown{
+    background: brown;
+}
+.wheat{
+    background: wheat;
+}
+.grey{
+    background: grey;
+}
+#image1{
+    position: absolute;
+    height: 70%;
+    width: 50%;
+    background: rgba(192,192,192,0.7);
+    z-index: 5;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    display: none;
+}
+#x,#y,#z,#b,#v,#q{
+	height: 32.8%;
+	width: 49.3%;
+	display: inline-block;
+}
+#x{
+	background-image: url(../img/518079-background-hd.jpg);
+	background-position: center;
+	background-size: cover;
+}
+#y{
+	background-image: url(../img/abstract-autumn-background.jpg);
+		background-position: center;
+	background-size: cover;
+}
+#z{
+	background-image: url(../img/Alien_Ink_2560X1600_Abstract_Background_1.jpg);
+		background-position: center;
+	background-size: cover;
+}
+#b{
+	background-image: url(../img/backgrounds_2.jpg);
+		background-position: center;
+	background-size: cover;
+}
+#v{
+	background-image: url(../img/1.jpg);
+		background-position: center;
+	background-size: cover;
+}
+#q{
+	background-image: url(../img/red-abstract-bg.jpg);
+		background-position: center;
+	background-size: cover;
+}
