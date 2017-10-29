@@ -260,26 +260,26 @@
   }
   //зміна бекграунду сторінки
   x.onclick = function () {
-      document.body.style.backgroundImage = "url('../img/518079-background-hd.jpg')";
+      document.body.style.backgroundImage = "url('./img/518079-background-hd.jpg')";
       image1.style.display = "none";
   }
   y.onclick = function () {
-      document.body.style.backgroundImage = "url('../img/abstract-autumn-background.jpg')";
+      document.body.style.backgroundImage = "url('./img/abstract-autumn-background.jpg')";
       image1.style.display = "none";
   }
   z.onclick = function () {
-      document.body.style.backgroundImage = "url('../img/Alien_Ink_2560X1600_Abstract_Background_1.jpg')";
+      document.body.style.backgroundImage = "url('./img/Alien_Ink_2560X1600_Abstract_Background_1.jpg')";
       image1.style.display = "none";
   }
   q.onclick = function () {
-      document.body.style.backgroundImage = "url('../img/red-abstract-bg.jpg')";
+      document.body.style.backgroundImage = "url('./img/red-abstract-bg.jpg')";
       image1.style.display = "none";
   }
   b.onclick = function () {
-      document.body.style.backgroundImage = "url('../img/backgrounds_2.jpg')";
+      document.body.style.backgroundImage = "url('./img/backgrounds_2.jpg')";
       image1.style.display = "none";
   }
   v.onclick = function () {
-      document.body.style.backgroundImage = "url('../img/1.jpg')";
+      document.body.style.backgroundImage = "url('./img/1.jpg')";
       image1.style.display = "none";
   }
